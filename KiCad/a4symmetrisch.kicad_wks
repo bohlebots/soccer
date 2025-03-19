@@ -1,0 +1,188 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 310.66 168.6202)
+		(end 202.66 136.6202)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start -200.66 -134.62 ltcorner)
+		(end 200.66 134.62)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start -150.66 -132.62 ltcorner)
+		(end -150.66 -134.62 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos -175.66 -133.62 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start -150.66 136.6202 lbcorner)
+		(end -150.66 134.6202 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos -175.66 135.6202 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start -200.66 -84.62 ltcorner)
+		(end -198.66 -84.62 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos -199.66 -109.62 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 200.66 -84.62 rtcorner)
+		(end 202.66 -84.62 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 201.66 -109.62 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 287.66 141.5202)
+	)
+	(line
+		(name "")
+		(start 310.66 140.1202)
+		(end 202.66 140.1202)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 309.66 138.7202)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 310.66 143.1202)
+		(end 202.66 143.1202)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "")
+		(pos 224.66 141.5202)
+		(font bold)
+	)
+	(tbtext "Size: ${PAPER}"
+		(name "")
+		(pos 309.66 141.5202)
+		(comment "Paper format name")
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "")
+		(pos 224.66 138.7202)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 310.66 147.1202)
+		(end 202.66 147.1202)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 309.66 145.3202)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 309.66 148.9202)
+	)
+	(line
+		(name "")
+		(start 310.66 153.1202)
+		(end 202.66 153.1202)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 309.66 151.6202)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 309.66 154.6202)
+		(font bold)
+		(comment "Company name")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 309.66 157.6202)
+		(comment "Comment 0")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 309.66 160.6202)
+		(comment "Comment 1")
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 309.66 163.6202)
+		(comment "Comment 2")
+	)
+	(tbtext "${COMMENT4}"
+		(name "")
+		(pos 309.66 166.6202)
+		(comment "Comment 3")
+	)
+	(line
+		(name "")
+		(start 290.66 143.1202)
+		(end 290.66 140.1202)
+	)
+	(line
+		(name "")
+		(start 226.66 143.1202)
+		(end 226.66 136.6202)
+	)
+)
